@@ -1,0 +1,27 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  /* https://i.pinimg.com/originals/63/7c/4d/637c4d078c66f3af53cc9b37f272e8af.jpg */
+}
+
+#div-characters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+/* TABLET */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #div-characters {
+    justify-content: center;
+    align-items: center;
+  }
+}

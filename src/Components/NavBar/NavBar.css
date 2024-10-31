@@ -1,0 +1,27 @@
+.div-navbar {
+  width: auto;
+}
+
+.grupo-botones {
+  width: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.boton {
+  font-family: "Times New Roman", Times, serif;
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+}
+
+.boton:hover {
+  background-color: white;
+  color: black;
+}
